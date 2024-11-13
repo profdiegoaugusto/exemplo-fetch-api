@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Endereço</title>
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Busca de Endereço por CEP</title>
+      </head>
+      <body>
+        <h1>Busca de Endereço por CEP</h1>
+        <form>
+          <label for="cep">Digite o CEP:</label>
+          <input type="text" id="cep" placeholder="Ex: 01001000" />
+          <button id="buscarCep" type="button">Buscar</button>
+
+          <div>
+            <label for="logradouro">Logradouro:</label>
+            <input type="text" id="logradouro" />
+          </div>
+
+          <div>
+            <label for="bairro">Bairro:</label>
+            <input type="text" id="bairro" />
+          </div>
+
+          <div>
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" />
+          </div>
+
+          <div>
+            <label for="estado">Estado:</label>
+            <select id="estados-brasil">
+              <option value="-1">Selecione o estado...</option>
+              <option value="AC">Acre</option>
+              <option value="AL">Alagoas</option>
+              <option value="AP">Amapá</option>
+              <option value="AM">Amazonas</option>
+              <option value="BA">Bahia</option>
+              <option value="CE">Ceará</option>
+              <option value="DF">Distrito Federal</option>
+              <option value="ES">Espírito Santo</option>
+              <option value="GO">Goiás</option>
+              <option value="MA">Maranhão</option>
+              <option value="MT">Mato Grosso</option>
+              <option value="MS">Mato Grosso do Sul</option>
+              <option value="MG">Minas Gerais</option>
+              <option value="PA">Pará</option>
+              <option value="PB">Paraíba</option>
+              <option value="PR">Paraná</option>
+              <option value="PE">Pernambuco</option>
+              <option value="PI">Piauí</option>
+              <option value="RJ">Rio de Janeiro</option>
+              <option value="RN">Rio Grande do Norte</option>
+              <option value="RS">Rio Grande do Sul</option>
+              <option value="RO">Rondônia</option>
+              <option value="RR">Roraima</option>
+              <option value="SC">Santa Catarina</option>
+              <option value="SP">São Paulo</option>
+              <option value="SE">Sergipe</option>
+              <option value="TO">Tocantins</option>
+            </select>
+          </div>
+        </form>
+      </body>
+    </html>
+    <script src="js/endereco.js"></script>
+  </body>
+</html>
